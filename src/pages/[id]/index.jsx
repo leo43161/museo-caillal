@@ -4,11 +4,9 @@ export default function ArtWorks() {
     return (
         <div>
             <header className="header-artwork">
-                <div className="header-img-artwork">
-                    <Image src="/img/obra-1.jpg" alt="" layout='fill' />
-                </div>
-                <div className="header-title-artwork">
-                    <h2 className="playfair-style">LA JOVEN DE LA PERLA</h2>
+                <div className='header-img-artwork'>
+                    <img src="/img/obra-2.jpg" alt="" className="background-artwork" />
+                    <img src="/img/obra-2.jpg" alt="" className="img-artwork" />
                 </div>
             </header>
             <main>
