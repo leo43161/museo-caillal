@@ -1,0 +1,38 @@
+.header-artwork {
+    position: relative;
+    height: 90vh;
+}
+
+.header-artwork img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header-img-artwork{
+    width: 100%;
+    height: 100%;
+}
+
+.header-img-artwork:before {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.73) 0%, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.63) 100%);
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.header-title-artwork {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 15px 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+.header-artwork h2 {
+    margin: 0px;
+}

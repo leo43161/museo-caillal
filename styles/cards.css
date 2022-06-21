@@ -1,0 +1,67 @@
+.card-title {
+    text-transform: uppercase;
+    padding: 0.8rem 2rem 0.8rem 0.8rem;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 10px;
+}
+
+.card-header {
+    text-align: center;
+    padding: 0.4rem 1.1rem;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 10px;
+    z-index: 10;
+}
+
+.card {
+    height: 400px;
+    width: 30%;
+    display: flex;
+    position: relative;
+    margin: 0.9rem;
+    text-align: left;
+    text-decoration: none;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.card-image:after {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.83) 0%, rgba(0, 0, 0, 0) 45%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.63) 100%);
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.card-image img {
+    position: relative;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+    color: #0070f3;
+    border-color: #0070f3;
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 2.3rem;
+}
+
+@media (min-width: 300px) and (max-width: 600px) {
+    .card {
+        height: 460px;
+        width: 85%;
+        position: relative;
+        margin: 1rem 0rem;
+    }
+}
